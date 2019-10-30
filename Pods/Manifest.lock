@@ -1,0 +1,28 @@
+PODS:
+  - KVOController (1.2.0)
+  - Masonry (1.1.0)
+  - MJExtension (3.2.1)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+
+DEPENDENCIES:
+  - KVOController
+  - Masonry
+  - MJExtension
+  - "UITableView+FDTemplateLayoutCell"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KVOController
+    - Masonry
+    - MJExtension
+    - "UITableView+FDTemplateLayoutCell"
+
+SPEC CHECKSUMS:
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+
+PODFILE CHECKSUM: 2724a719db83f3435e5d97b964d2ed3cd94f55a3
+
+COCOAPODS: 1.7.3

@@ -2,11 +2,13 @@
 //  AppDelegate.m
 //  NDGifDemo
 //
-//  Created by 140013 on 2019/10/27.
+//  Created by 140013 on 2019/10/31.
 //  Copyright © 2019 FeoniX. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "NDGifDemoVCL.h"
+#import "FXBaseNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NDGifDemoVCL *vcl = [NDGifDemoVCL new];
+    
+    FXBaseNavigationController *nav = [[FXBaseNavigationController alloc] initWithRootViewController:vcl];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    YYWebImageManager *manage = [YYWebImageManager sharedManager];
+//    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+//    queue.maxConcurrentOperationCount = 6;
+//    manage.queue = queue;
+    
     return YES;
 }
 

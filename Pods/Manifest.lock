@@ -1,28 +1,59 @@
 PODS:
   - KVOController (1.2.0)
   - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
   - MJExtension (3.2.1)
-  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - MJRefresh (3.1.12)
+  - SVProgressHUD (2.2.5)
+  - WBHUDManager (1.0.1):
+    - WBHUDManager/MBProgressHUDWBAddtional (= 1.0.1)
+    - WBHUDManager/SVProgressHUDWBAddtional (= 1.0.1)
+  - WBHUDManager/MBProgressHUDWBAddtional (1.0.1):
+    - MBProgressHUD
+  - WBHUDManager/SVProgressHUDWBAddtional (1.0.1):
+    - SVProgressHUD
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
   - KVOController
   - Masonry
   - MJExtension
-  - "UITableView+FDTemplateLayoutCell"
+  - MJRefresh (= 3.1.12)
+  - WBHUDManager
+  - YYImage
+  - YYWebImage
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - KVOController
     - Masonry
+    - MBProgressHUD
     - MJExtension
-    - "UITableView+FDTemplateLayoutCell"
+    - MJRefresh
+    - SVProgressHUD
+    - WBHUDManager
+    - YYCache
+    - YYImage
+    - YYWebImage
 
 SPEC CHECKSUMS:
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
-  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  WBHUDManager: 6ad61ae0fb11eaf6a0f79cb5f5a89a804e08138f
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 2724a719db83f3435e5d97b964d2ed3cd94f55a3
+PODFILE CHECKSUM: 2b757d5d6939ea1c24923a97a0e68b6a2146fe21
 
 COCOAPODS: 1.7.3
